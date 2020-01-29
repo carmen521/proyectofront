@@ -1,0 +1,86 @@
+body{
+    margin:0;
+   
+
+}
+.cuadro1{
+    /*border: 1px solid brown ;*/
+    width: 50%;
+    float: left;
+    background-color: cadetblue;
+   color: white; 
+   height: 100%;
+   
+   
+  
+    
+}
+.forma{
+
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+}
+.cuadro1 hr{
+    border-color: yellow;
+}
+
+.foto{
+    padding: 30px;
+    
+}
+.contact{
+    padding: 30px;
+    
+}
+
+.skills{
+    padding: 30px;
+    
+}
+
+.lenguages{
+    padding: 30px;
+    
+    
+
+}
+.cuadro2{
+    /* border: 1px solid brown ;*/
+     width: 50%;
+     float: right;
+     background-color: wheat;
+     
+     
+ }
+
+
+
+.nombre{
+
+    padding: 30px;
+
+}
+.work{
+    padding: 30px;
+
+}
+
+.education{
+    padding: 30px;
+
+} 
+.reference{
+    padding: 30px;
+}
+#main{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+ul{
+    list-style: none;
+}
