@@ -1,8 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-</head>
-<body>
- hola
-</body>
+    <head>
+        <style>
+            td{
+                width: 100px;
+                height: 100px;
+                text-align: center;
+                font-size: 30px;
+            }
+            .azul{
+                background-color: blue;
+            }
+            .amarillo{
+                background-color: yellow;
+            }
+            .rojo{
+                background-color: red;
+            }
+            table{
+                background-color: rosybrown;
+            }
+        </style>
+    </head>
+    <body>
+        <table   border="1" cellspancing="0"> 
+            <tr> 
+                <td>a</td><td>b</td> <td>c</td> <td>d</td>
+            </tr>
+            <tr> 
+                <td class="azul"rowspan="2">e,i</td> <td>f</td><td class="amarillo"colspan="2">g,h</td>
+            </tr>
+
+                
+            
+            <tr> 
+                 <td>j</td> <td class="rojo"rowspan="2">k,0</td> <td>l</td> 
+            </tr>    
+            
+            <tr> 
+                <td>m</td><td>n</td> <td>p</td> 
+            </tr>
+        </table>
+    </body>
 </html>
